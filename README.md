@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+# 15-Pussel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Detta projekt är en webbapplikation som implementerar det klassiska spelet 15-pussel. I spelet finns det 15 numrerade brickor som ska ordnas i ordning genom att flytta dem runt på en 4x4-bräda tills de är i numerisk ordning från övre vänstra hörnet till nedre högra hörnet, med en tom bricka som möjliggör flytt.
 
-## Available Scripts
+## Funktioner
 
-In the project directory, you can run:
+- **Spela spelet**: Användaren kan klicka på brickor för att flytta dem runt på brädet och ordna dem i numerisk ordning.
+- **Blanda brickorna**: Användaren kan blanda brickorna genom att klicka på "Blanda" -knappen om de vill starta om spelet.
+- **Kontrollera vinst**: Spelet kollar automatiskt om användaren har ordnat brickorna i rätt ordning och visar en vinstmeddelande om så är fallet.
 
-### `npm start`
+## Teknologi
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React**: Projektet är byggt med React, ett populärt JavaScript-bibliotek för att bygga användargränssnitt.
+- **TypeScript**: TypeScript används för att lägga till statisk typning till JavaScript och därigenom öka kodsäkerheten.
+- **CSS**: Enkla CSS-stilar används för att skapa ett användarvänligt gränssnitt.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Kom igång
 
-### `npm test`
+1. **Installera dependencies**: Kör `npm i` för att installera alla projektets beroenden.
+2. **Starta applikationen**: Kör `npm start` för att starta utvecklingsservern och öppna applikationen i din webbläsare.
+3. **Spela spelet**: Blanda brickorna och försök ordna dem i rätt ordning för att vinna!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Det är allt! Nu är du redo att spela 15-Pussel. Ha kul!

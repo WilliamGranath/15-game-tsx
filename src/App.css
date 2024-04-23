@@ -1,7 +1,29 @@
+:root {
+  --main-grey: #2f2f2f;
+  --tile: #086f6e;
+  --correct-tile: #26d326;
+  --text: #ffffff;
+  --tile-height: 8vw;
+  --tile-width: 8vw;
+  --text-size: 3vw;
+  --mobile-tile-height: 16vw;
+  --mobile-tile-width: 16vw;
+  --mobile-text-size: 6vw;
+}
 .App {
   text-align: center;
-}
+  background-color: #2f2f2f;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  flex-direction: column;
+}
+.App h1 {
+  font-size: var(--text-size);
+  color: var(--text);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,13 +48,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

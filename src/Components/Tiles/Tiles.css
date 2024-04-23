@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+.tile {
+  display: flex;
+  width: var(--tile-width);
+  height: var(--tile-height);
+  text-align: center;
+  line-height: 50px;
+  margin-right: 5px;
+  background-color: var(--tile);
+  color: var(--text);
+  border-radius: 0.2vw;
+  font-size: var(--text-size);
+  justify-content: center;
+  align-items: center;
+}
+.tile.correct {
+  background-color: var(--correct-tile);
+}
+@media only screen and (max-width: 435px) {
+  .tile {
+    width: var(--mobile-tile-width);
+    height: var(--mobile-tile-height);
+    font-size: var(--mobile-text-size);
+  }
+}

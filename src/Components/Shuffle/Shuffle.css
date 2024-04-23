@@ -1,0 +1,9 @@
+.btn {
+  margin-top: 3vw;
+  background-color: #1b1b1b;
+  border: none;
+  padding: 1vw 4vw;
+  border-radius: 0.5vw;
+  color: var(--text);
+  font-size: var(--text-size);
+}
