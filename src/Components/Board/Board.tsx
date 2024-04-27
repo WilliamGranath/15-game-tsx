@@ -188,7 +188,7 @@ const Board: React.FC = () => {
     <div>
       {!isWinner && (
         <>
-          <h1>15-Pussel</h1>
+          <h1>15-Puzzle</h1>
           <Tiles
             tiles={tiles}
             onClick={handleTileClick}
